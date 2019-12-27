@@ -8,7 +8,7 @@ class School
   end
 
   def add_student(name, grade)
-    school.roster << {name => grade}
+    school.roster << [name => grade]
   end
 
 end
